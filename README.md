@@ -2,7 +2,7 @@
 
 **Step1:** Download and extract jmeter from [Jmeter](https://jmeter.apache.org/download_jmeter.cgi).
 
-**Step2:** And then we are ready to record the api calls.
+**Step2:** And then we are ready to use jmeter recording.
 
 ## For GUI use:
 
@@ -24,6 +24,8 @@ Create the log file in .jtl format. Make sure the location where you are creatin
 
 ### Example:
 ` jmeter -n -t tests/abc.jmx -l tests/log.jtl`
+
+
 **Step2:**
 Generate the html file from the .jtl file.
 
@@ -34,3 +36,5 @@ Generate the html file from the .jtl file.
 `jmeter -g tests/log.jtl -o tests/results`
 
 ***(The results folder needs to be empty)***
+
+For detailed documentation visit [fortefit](https://fortefit.atlassian.net/wiki/spaces/PD/pages/2408579106/Jmeter+Beginning)
