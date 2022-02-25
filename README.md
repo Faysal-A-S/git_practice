@@ -6,9 +6,9 @@
 
 ## For GUI use:
 
-**Step3:** Open jmeter from bin folder, click on file then open and open the jmx file. after opening click the start button to run the test. You can check the result in ***View Results Tree*** listener.
+**Step1:** Open jmeter from bin folder, click on file then open and open the jmx file. after opening click the start button to run the test. You can check the result in ***View Results Tree*** listener.
 
-**Step4:** For loadtest, to increase the number of user, click on "Thread Group" and change the ***Number of Threads*** to your desired number of load users.
+**Step2:** For loadtest, to increase the number of user, click on "Thread Group" and change the ***Number of Threads*** to your desired number of load users.
 
 ## Run script from GUI:
 
@@ -37,4 +37,4 @@ Generate the html file from the .jtl file.
 
 ***(The results folder needs to be empty)***
 
-For detailed documentation visit [fortefit](https://fortefit.atlassian.net/wiki/spaces/PD/pages/2408579106/Jmeter+Beginning)
+For detailed documentation visit [Here](https://fortefit.atlassian.net/wiki/spaces/PD/pages/2408579106/Jmeter+Beginning)
